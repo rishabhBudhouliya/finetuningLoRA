@@ -75,7 +75,6 @@ We achieved a final accuracy of **85.1%** on the test set under the 1M parameter
 - **Class 'Business'** had the highest misclassification rate (~13.16%).
 - Most confusion occurred with the **'Sci/Tech'** class.
 - Instances with **shorter text lengths** correlated with higher prediction errors.
-- Confidence gap between correct vs incorrect predictions was **0.1786**, showing that the model often "hesitates" during errors.
 
 ---
 
