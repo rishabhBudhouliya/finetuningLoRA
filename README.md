@@ -32,13 +32,14 @@ The main challenge was to **adhere to a total number of trainable parameters str
 - Mild **data augmentation**
 
 Our PEFT Configuration (LoRA)
-peft_type: LORA
-r: 8
-lora_alpha: 16
-lora_dropout: 0.05
-target_modules: Focused on attention layers: attention.self.query, attention.self.key, attention.self.value across all RoBERTa encoder layers.
-bias: "none"
-task_type: SEQ_CLS
+- peft_type: LORA
+- r: 8
+- lora_alpha: 16
+- lora_dropout: 0.05
+- target_modules: Focused on attention layers: attention.self.query, attention.self.key, attention.self.value across all RoBERTa encoder layers.
+- bias: "none"
+- task_type: SEQ_CLS
+
 **Trainable Parameters: 980,740**
 
 ---
